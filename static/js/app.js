@@ -22,14 +22,6 @@ function buildTable(data) {
 
 };
 
-// EXTRA: Create a variable to keep track of all the filters as an object.
-var clearEntries = d3.select("#clear-btn");
-clearEntries.on("click", function() {
-  location.reload();
-});
-
-
-
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {
 };
